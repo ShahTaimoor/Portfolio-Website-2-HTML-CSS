@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto';
+  
+}
+body{
+    height: 3000px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+
+}
+
+nav div{
+    background-color: white;
+    height: 70px;
+    width: 75%;
+display: flex;
+justify-content: space-between;
+align-items: center
+;
+}
+
+nav div ul{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+nav div ul li a{
+   color: black;
+   text-transform: uppercase;
+   
+}
+
+nav div ul li a:hover{
+    color: #d9832e;
+}
+
+header{
+display: flex;
+justify-content: center;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+header .container{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    
+    
+}
+
+.subtitle{
+    margin: 0;
+    padding: 0;
+}
+.title {
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+}
+.cotation {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+
+}
+.dev {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: grey;
+    letter-spacing: 2px;
+    margin-top: 16px;
+}
+
+.action{
+    display: flex;
+    column-gap: 12px;
+    margin-top: 24px;
+}
+.action button{
+   padding-top: 16px;
+   padding-bottom: 16px;
+   padding-left: 32px;
+   padding-right: 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.work-btn{
+    background-color: #d9832e;
+    color: white;
+    border: none;
+   
+}
+.hire-btn {
+    color: #d9832e;
+    border: 3px solid #d9832e;
+    
+}
+.work-btn:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.hire-btn:hover{
+    background-color: #d9832e;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.about-menu{
+    background-color: #eaedf2;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about-menu .container{
+    width: 75%;
+    
+}
+
+.about-menu h1 {
+    margin-top: 10px;
+}
+.about-menu hr {
+    margin-top: 10px;
+}
+.about-menu p {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: grey;
+}
+
+.about-image-box{
+    display: flex;
+    gap: 48px;
+    margin-top: 20px;
+    position: relative;
+    align-items: center;
+}
+
+.about-image-box .image-box{
+    background-color: white;
+    padding: 12px;
+    border-radius: 12px;
+}
+.about-image-box .social-box{
+    background-color: white;
+    width: 48px;
+    position: absolute;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 6px;
+    row-gap: 8px;
+top: 40px;
+left: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.social-box button{
+    width: 24px;
+    height: 28px;
+    border: none;
+    background-color: #d9832e;
+    color: white;
+    cursor: pointer;
+
+}
+.social-box button:hover{
+    background-color: black;
+}
+
+.pers-info{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.pers-info .lable{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+
+} 
+
+.pers-info .lable h4{
+    padding-right: 50px;
+    margin-right: 24px;
+    border-right: 1px solid grey;
+}
+
+.dwn{
+    border: none;
+    background-color: #d9832e;
+    color: white;
+    padding: 12px 28px;
+    margin-top: 24px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.skills .container{
+    width: 75%;
+}
+
+.skill-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card-box{
+    display: flex;
+    padding: 8px;
+    width: 50%;
+    flex-wrap: wrap;
+gap: 36px;
+margin-left: 50px;
+
+
+}
+.card{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    border: 1px solid #d9832e;
+    column-gap: 6px;
+   
+    
+}
+
+.percentage{
+    width: 50%;
+}
+.p-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+
+.skills .containeh1 {
+    margin-top: 10px;
+}
+
+.skills .container hr {
+    margin-top: 10px;
+}
+
+.skills .container p {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: grey;
+}
+
+
+.p-main{
+    height: 6px;
+    background-color: #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p-92{
+    width: 92%;
+    height: 100%;
+    background-color: #d9832e;
+}
+.p-85 {
+    width: 85%;
+    height: 100%;
+    background-color: #d9832e;
+}
+.p-40 {
+    width: 40%;
+    height: 100%;
+    background-color: #d9832e;
+}
+.p-75 {
+    width: 75%;
+    height: 100%;
+    background-color: #d9832e;
+}
